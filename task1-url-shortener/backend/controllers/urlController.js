@@ -1,5 +1,6 @@
 const Url = require("../models/Url");
 const { nanoid } = require("nanoid");
+const BASE_URL = process.env.BASE_URL;
 
 const shortenUrl = async (req, res) => {
   try {
@@ -28,7 +29,7 @@ const shortenUrl = async (req, res) => {
     if (existingUrl) {
       return res.status(200).json({
         success: true,
-        shortUrl: `http://localhost:5000/${existingUrl.shortCode}`,
+        shortUrl: `${BASE_URL}/${existingUrl.shortCode}`,
       });
     }
 
@@ -43,7 +44,7 @@ const shortenUrl = async (req, res) => {
 
     res.status(201).json({
       success: true,
-      shortUrl: `http://localhost:5000/${newUrl.shortCode}`,
+      shortUrl: `${BASE_URL}/${newUrl.shortCode}`,
     });
 
   } catch (error) {
