@@ -1,6 +1,6 @@
 # CodeAlpha - URL Shortener
 
-A  URL Shortener application built as part of the **CodeAlpha Backend Development Internship**.
+A URL Shortener application built as part of the **CodeAlpha Backend Development Internship**.
 
 ## Project Overview
 
