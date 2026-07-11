@@ -1,6 +1,6 @@
 # CodeAlpha - URL Shortener
 
-A simple URL Shortener application built as part of the **CodeAlpha Backend Development Internship**.
+A  URL Shortener application built as part of the **CodeAlpha Backend Development Internship**.
 
 ## Project Overview
 
@@ -47,7 +47,7 @@ The project uses a Node.js backend with Express and MongoDB to store and manage 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YourUsername/CodeAlpha_URLShortener.git
+git clone https://github.com/eman20102003/CodeAlpha_URLShortener.git
 ```
 
 ### Backend
@@ -135,7 +135,7 @@ The React frontend is deployed on Render:
 
 https://shortly-api-1.onrender.com/
 
-A simple and user-friendly interface that allows users to enter a long URL, generate a shortened URL, and open the generated short link.
+A React-based interface that allows users to enter a long URL, generate a shortened URL, and test the redirection process.
 
 ---
 
